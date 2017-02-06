@@ -38,7 +38,7 @@ function showMoreDirective() {
               
           };
           scope.reLayout = function(){
-            scope.$emit("iso-method", {name:"layout"});
+            scope.$emit("iso-method", {name:"layout",params:null})
           }
       }
   };
