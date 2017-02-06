@@ -140,6 +140,7 @@ $(document).ready(function() {
       }
     });   
   }  
+
 //COMMENT ITEMS
   size_li = $(".commment-item--wrap .comment-item--loader").size();
   x=8;

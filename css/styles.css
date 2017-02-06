@@ -16,6 +16,7 @@ a:hover, a:focus{text-decoration:none}
 .post-item.animate .post-item--image img.animate{-webkit-transition:all .7s ease-in-out;-o-transition:all .7s ease-in-out;transition:all .7s ease-in-out;}
 .js-close{background:url(../images/icon-close.png) center 0 no-repeat;height:25px;width:25px;float:right;font-size:0;line-height:0;position:absolute;top: 0;right:0;cursor:pointer;}
 .js-hide{display:none}
+.js-hideImportant{display:none!important}
 
 .button{padding:5px 15px;text-decoration:none;width:110px;font-size:13px;border:none}
 .button:hover{text-decoration:none;color:#fff;background:#a70101}
@@ -158,12 +159,12 @@ a:hover, a:focus{text-decoration:none}
 .commment-item--wrap{min-height:300px}
 .comment-item--loader:nth-child(n+6){display:none}
 .commment-item{display:block;background:#fff;}
-.comment-item--details{cursor:pointer;background:url(../images/bg-pattern-gray.png);padding:40px 40px 40px 45px}
+.comment-item--details{background:url(../images/bg-pattern-gray.png);padding:40px 40px 40px 45px}
 .comment-item--date{font-size:12px;text-transform:uppercase;margin-bottom:20px;position:relative;padding-top:5px;padding-left:20px}
 .comment-item--date:before{content:"";background:url(../images/icon-speech.png) left center no-repeat;position:absolute;left:-35px;top:0;height:44px;width:44px}
 .comment-item--details .more{font-size:18px;line-height:1.2}
 .morecontent span{display: none;}
-.morelink {display: block;font-size:13px;text-decoration:underline}
+.morelink {display: block;font-size:13px;text-decoration:underline;cursor:pointer}
 .comment-item--footer{padding:10px 10px 15px 10px;display:block;margin-bottom:15px}
 .comment-item--commentlink{padding:10px 10px 10px 40px;font-size:13px;color:#4b4b4b;text-decoration:underline;position:relative;display:inline;margin-right:20px}
 .comment-item--commentlink:before{background:url(../images/icon-pen.png) left center no-repeat;width:12px;height:12px;position:absolute;content:"";left:20px;bottom:15px}

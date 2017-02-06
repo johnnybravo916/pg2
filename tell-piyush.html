@@ -16,7 +16,7 @@
   <![endif]-->
   <script src="js/jquery.js"></script>
 </head>
-<body>
+<body ng-app="comments" ng-controller="BlogsCtrl as commentList">
 <!-- start header -->
 <div class="login-header">
   <div class="container">
@@ -48,7 +48,7 @@
   </div>
 </section>
 <div class="container">
-  
+
   <div class="row">
     <div class="col-md-12">
       <div class="page-comment--search box-search">
@@ -59,440 +59,36 @@
       </div>
     </div>
   </div>
-  
-  <div class="row commment-item--wrap grid">
+
+  <div class="row commment-item--wrap grid" id="isotopeContainer" isotope-container ng-cloak class="ng-cloak">
   
     <!-- repeater start-->
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
+    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader kindling {{x.class}}" ng-repeat="blog in commentList.comments" isotope-item>
       <div class="commment-item animate">
         <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
+          <div class="comment-item--date">{{blog._date}}</div>
           <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
+            <show-more text="blog._content" limit="200"> </show-more>
           </div>
         </div>
         <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
+          <a href="#" title="Comments" class="comment-item--commentlink">{{blog._commentnumber}} comments</a>
           <div class="comment-item--tagwrap">
-            <span class="comment-item--tag">Workplace Management</span>
+            <span class="comment-item--tag">{{blog._tags}}</span>
           </div>
         </div>
       </div>
     </div>
     <!-- repeater ends -->
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, cporttitor enim in nibh euismod tempus. Donec fermentum cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. </p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, cporttitor enim in nibh euismod tempus. Donec fermentum cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. </p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, cporttitor enim in nibh euismod tempus. Donec fermentum cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. </p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus.  consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, cporttitor enim in nibh euismod tempus. Donec fermentum cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. </p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, cporttitor enim in nibh euismod tempus. Donec fermentum cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. </p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, cporttitor enim in nibh euismod tempus. Donec fermentum cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. </p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, cporttitor enim in nibh euismod tempus. Donec fermentum cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. </p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, cporttitor enim in nibh euismod tempus. Donec fermentum cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. </p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, cporttitor enim in nibh euismod tempus. Donec fermentum cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus.  cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. cporttitor enim in nibh euismod tempus. </p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader ">
-      <div class="commment-item animate">
-        <div class="comment-item--details">
-          <div class="comment-item--date">2017 Q1</div>
-          <div class="more">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo quis augue bibendum eleifend. Aliquam porttitor enim in nibh euismod tempus. Donec fermentum</p>
-          </div>
-        </div>
-        <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">3 comments</a>
-          <div class="comment-item--tagwrap">
-            <!-- no tags -->
-          </div>
-        </div>
-      </div>
-    </div>
-  
-  
-  
-  
+
   </div>
   
   <div class="row">
     <div class="col-md-12">
       <div class="js-loadmore button-loadcomment animate"><span>Click to load more</span></div>
     </div>
-  </div>
-    
-  </div>
+  </div>            
+
 </div>
 <!-- start footer -->
 <footer>
@@ -536,6 +132,34 @@
 </div>
   
 <script src="./js/plugins.js"></script>
+  <script>
+    var addToList = function(number) {
+      var s=angular.element('#isotopeContainer').scope();
+      s.count = s.count || 0;
+      var newItem={name:'add', number:number || s.count--, date: Date.now(), class:'purple'};
+      s.$apply(s.xList.push(newItem));
+    };
+    var addLastItem = function() {
+      s.lastNumber = s.lastNumber || [];
+      addToList(s.lastNumber.shift());
+    };
+    var removeItem = function(elem) {
+      if (!Array.prototype.filter) return;
+      var s=angular.element('#isotopeContainer').scope();
+      var number = angular.element(elem).find(".number").attr("number");
+      var items = s.xList.filter(function( obj ) {
+        return +obj.number != +number;
+      });
+      s.lastNumber = s.lastNumber || [];
+      s.lastNumber.unshift(number);
+      s.$apply(s.xList = items);
+    };
+  </script>
+<script src="./js/angular.min.js"></script>
+<script src="./js/xml2json.min.js"></script>
+<script src="./js/angular-xml.min.js"></script>
+<script src="./js/angular-isotope.min.js"></script>
+<script src="./js/xml.js"></script>
 <script src="./js/scripts.js"></script>
 </body>
 </html>
