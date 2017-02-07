@@ -155,6 +155,7 @@ a:hover, a:focus{text-decoration:none}
 .page-comment--search ::-moz-placeholder{font-weight:bold;font-size:20px;color:#515151} 
 .page-comment--search :-ms-input-placeholder{font-weight:bold;font-size:20px;color:#515151} 
 .page-comment--search :-moz-placeholder{font-weight:bold;font-size:20px;color:#515151} 
+.searchNothing{margin-top:20px;font-size:20px;font-weight:bold}
 
 .commment-item--wrap{min-height:300px}
 .comment-item--loader:nth-child(n+6){display:none}
