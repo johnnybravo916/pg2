@@ -52,8 +52,8 @@
   <div class="row">
     <div class="col-md-12">
       <div class="page-comment--search box-search">
-        <form action="search.html">
-          <input type="text" placeholder="Search" class="field-search"/>
+        <form>
+          <input type="text" placeholder="Search" class="field-search" ng-model="searchBox" ng-keypress='$emit("iso-method", {name:"layout",params:null})' ng-keydown='$emit("iso-method", {name:"layout",params:null})'/>
           <input type="submit" class="field-submit animate"/>
         </form>
       </div>
@@ -63,8 +63,8 @@
   <div class="row commment-item--wrap grid" id="isotopeContainer" isotope-container ng-cloak class="ng-cloak">
   
     <!-- repeater start-->
-    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader kindling {{x.class}}" ng-repeat="blog in commentList.comments" isotope-item>
-      <div class="commment-item animate">
+    <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader kindling {{x.class}}" ng-repeat="blog in commentList.comments | filter: searchBox | limitTo: limitComments" isotope-item>
+      <div class="commment-item animate" ng-click='$emit("iso-method", {name:"layout",params:null})'>
         <div class="comment-item--details">
           <div class="comment-item--date">{{blog._date}}</div>
           <div class="more">
@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="comment-item--footer">
-          <a href="#" title="Comments" class="comment-item--commentlink">{{blog._commentnumber}} comments</a>
+          <a href="#{{blog._id}}comment" title="Comments" class="comment-item--commentlink fancybox">{{blog._commentnumber}} comments</a>
           <div class="comment-item--tagwrap">
             <span class="comment-item--tag">{{blog._tags}}</span>
           </div>
@@ -80,15 +80,46 @@
       </div>
     </div>
     <!-- repeater ends -->
-
+    
   </div>
   
   <div class="row">
     <div class="col-md-12">
-      <div class="js-loadmore button-loadcomment animate"><span>Click to load more</span></div>
+      <div class="js-loadmore button-loadcomment animate" ng-click="loadMore()"><span>Click to load more</span></div>
     </div>
   </div>            
 
+</div>
+
+<div ng-repeat="blog in commentList.comments">
+  <div id="{{blog._id}}comment" class="js-hide modal-comment">
+    <div class="commment-item animate">
+      <div class="comment-item--details">
+        <div class="comment-item--date">{{blog._date}}</div>
+        <div class="more">
+          <p>{{blog._content}}</p>
+        </div>
+      </div>
+      <div class="comment-item--footer">
+        <a href="#" title="Comments" class="comment-item--commentlink">{{blog._commentnumber}} comments</a>
+        <a href="#" title="Comments" class="comment-item--commentlink">Post a reply</a>
+        <div class="comment-item--tagwrap">
+          <!-- no tags -->
+        </div>
+      </div>
+      <div class="comment-modal--comments">
+        <div class="comment-modal--piyush">Piyush Gupta</div>
+        <div class="comment-modal--commentMain">Lorem ipsum</div>
+        <div class="comment-icon--reply">Post a reply</div>
+      </div>
+      <div class="comment-modal--otherComments">
+        <div class="comment-modal--otherWrap">
+          <div class="comment-modal--commentReply">Lorem ipsum reply</div>
+          <div class="comment-icon--reply">Post a reply</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <!-- start footer -->
 <footer>
@@ -132,29 +163,6 @@
 </div>
   
 <script src="./js/plugins.js"></script>
-  <script>
-    var addToList = function(number) {
-      var s=angular.element('#isotopeContainer').scope();
-      s.count = s.count || 0;
-      var newItem={name:'add', number:number || s.count--, date: Date.now(), class:'purple'};
-      s.$apply(s.xList.push(newItem));
-    };
-    var addLastItem = function() {
-      s.lastNumber = s.lastNumber || [];
-      addToList(s.lastNumber.shift());
-    };
-    var removeItem = function(elem) {
-      if (!Array.prototype.filter) return;
-      var s=angular.element('#isotopeContainer').scope();
-      var number = angular.element(elem).find(".number").attr("number");
-      var items = s.xList.filter(function( obj ) {
-        return +obj.number != +number;
-      });
-      s.lastNumber = s.lastNumber || [];
-      s.lastNumber.unshift(number);
-      s.$apply(s.xList = items);
-    };
-  </script>
 <script src="./js/angular.min.js"></script>
 <script src="./js/xml2json.min.js"></script>
 <script src="./js/angular-xml.min.js"></script>

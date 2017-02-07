@@ -63,6 +63,11 @@ function BlogsController($scope, BlogsService){
   .catch(function (error) {
     console.log('Noooooo, an error occurred', error);
   }); 
+  $scope.limitComments = 4;
+  $scope.loadMore = function(){
+    var increment = $scope.limitComments + 4;
+    $scope.limitComments = increment > commentList.comments.length ? commentList.comments.length : increment;
+  }
 };
 
 BlogsService.$inject = ['$http', 'ApiBasePath'];
