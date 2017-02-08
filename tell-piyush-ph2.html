@@ -51,11 +51,22 @@
 
   <div class="row">
     <div class="col-md-12">
-      <div class="page-comment--search box-search">
-        <form>
-          <input type="text" placeholder="Search" class="field-search" ng-model="searchBox" ng-keypress='$emit("iso-method", {name:"layout",params:null});$emit("iso-option", {itemSelector: ".grid-item"})' ng-keydown='$emit("iso-method", {name:"layout",params:null});$emit("iso-option", {itemSelector: ".grid-item"})' ng-keyup='$emit("iso-method", {name:"layout",params:null});$emit("iso-option", {itemSelector: ".grid-item"})' ng-click='$emit("iso-method", {name:"layout",params:null});$emit("iso-option", {itemSelector: ".grid-item"})'/>
+      <div class="page-comment--box">
+        <select class="page-comment--subject">
+          <option>Subject</option>
+        </select>
+        <select class="page-comment--sort">
+          <option>Sort</option>
+        </select>
+        <select class="page-comment--keywords">
+          <option>Popular Keywords</option>
+        </select>
+        <select class="page-comment--archives">
+          <option>Archives</option>
+        </select>
+        <form action="search.html" class="page-comment--search">
+          <input type="text" placeholder="Search" class="field-search"/>
           <input type="submit" class="field-submit animate"/>
-          <span class="icon-clear" ng-click="clearSearch()"></span>
         </form>
       </div>
     </div>
@@ -86,7 +97,7 @@
   
   <div class="row">
     <div class="col-md-12">
-      <div class="js-loadmore button-loadcomment animate" ng-click="loadMore();"><span>Click to load more</span></div>
+      <div class="js-loadmore button-loadcomment animate" ng-click="loadMore()"><span>Click to load more</span></div>
     </div>
   </div>            
 
@@ -101,23 +112,22 @@
           <p>{{blog._content}}</p>
         </div>
       </div>
-            <!--
       <div class="comment-item--footer">
-
         <a href="#" title="Comments" class="comment-item--commentlink">{{blog._commentnumber}} comments</a>
         <a href="#" title="Comments" class="comment-item--commentlink">Post a reply</a>
         <div class="comment-item--tagwrap">
-
+          <!-- no tags -->
         </div>
-               
-      </div> -->
+      </div>
       <div class="comment-modal--comments">
         <div class="comment-modal--piyush">Piyush Gupta</div>
         <div class="comment-modal--commentMain">Lorem ipsum</div>
+        <div class="comment-icon--reply">Post a reply</div>
       </div>
       <div class="comment-modal--otherComments">
         <div class="comment-modal--otherWrap">
           <div class="comment-modal--commentReply">Lorem ipsum reply</div>
+          <div class="comment-icon--reply">Post a reply</div>
         </div>
       </div>
     </div>

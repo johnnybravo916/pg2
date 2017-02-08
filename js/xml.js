@@ -1,10 +1,13 @@
 angular.module('comments', ['xml', 'iso.directives'])
-.config(function ($httpProvider) {$httpProvider.interceptors.push('xmlHttpInterceptor')})
+.config(function ($httpProvider) {
+      $httpProvider.interceptors.push('xmlHttpInterceptor')
+    })
 .controller('BlogsCtrl', BlogsController)
 .service('BlogsService', BlogsService)
 .directive('showMore',showMoreDirective)
 .filter('subString',subStringFilter)
 .constant('ApiBasePath', 'xmlComments.xml');
+
 
 function showMoreDirective() {
   return {
@@ -38,7 +41,8 @@ function showMoreDirective() {
               
           };
           scope.reLayout = function(){
-            scope.$emit("iso-method", {name:"layout",params:null})
+            scope.$emit("iso-method", {name:"layout",params:null});
+            scope.$emit("iso-option", {itemSelector: ".grid-item"});
           }
       }
   };
@@ -50,6 +54,10 @@ function subStringFilter() {
             return str.substr(start, end);
         }
     }
+    return function (text, target, otherProp) {
+        return text.replace("the","NO")
+    };
+
 }
 
 BlogsController.$inject = ['$scope','BlogsService'];
@@ -63,10 +71,15 @@ function BlogsController($scope, BlogsService){
   .catch(function (error) {
     console.log('Noooooo, an error occurred', error);
   }); 
-  $scope.limitComments = 4;
+  $scope.limitComments = 6;
   $scope.loadMore = function(){
-    var increment = $scope.limitComments + 4;
+    var increment = $scope.limitComments + 3;
+    console.log (commentList.comments.length );
     $scope.limitComments = increment > commentList.comments.length ? commentList.comments.length : increment;
+    
+  }
+  $scope.clearSearch = function(){
+    $scope.searchBox = "";
   }
 };
 
