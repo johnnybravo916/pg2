@@ -65,20 +65,14 @@
   
     <!-- repeater start-->
     <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader kindling {{x.class}}" ng-repeat="blog in commentList.comments | filter: searchBox | limitTo: limitComments" isotope-item>
-      <div class="commment-item animate" ng-click='$emit("iso-method", {name:"layout",params:null});$emit("iso-option", {itemSelector: ".grid-item"})'>
+      <a href="#{{blog._id}}comment" class="fancybox commment-item animate" ng-click='$emit("iso-method", {name:"layout",params:null});$emit("iso-option", {itemSelector: ".grid-item"})'>
         <div class="comment-item--details">
           <div class="comment-item--date">{{blog._date}}</div>
           <div class="more">
-            <show-more text="blog._content" limit="200"> </show-more>
+            <show-more text="blog._content"> </show-more>
           </div>
         </div>
-        <div class="comment-item--footer">
-          <a href="#{{blog._id}}comment" title="Comments" class="comment-item--commentlink fancybox">{{blog._commentnumber}} comments</a>
-          <div class="comment-item--tagwrap">
-            <span class="comment-item--tag">{{blog._tags}}</span>
-          </div>
-        </div>
-      </div>
+      </a>
     </div>
     <!-- repeater ends -->
     

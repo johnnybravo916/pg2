@@ -160,14 +160,14 @@ a:hover, a:focus{text-decoration:none}
 .searchNothing{margin-top:20px;font-size:20px;font-weight:bold}
 
 .commment-item--wrap{min-height:300px}
-.commment-item{display:block;background:#fff;}
+.commment-item{display:block;background:#fff;color:#000!important;margin-bottom:20px}
 .comment-item--details{background:url(../images/bg-pattern-gray.png);padding:40px 40px 40px 45px}
 .comment-item--date{font-size:12px;text-transform:uppercase;margin-bottom:20px;position:relative;padding-top:5px;padding-left:20px}
 .comment-item--date:before{content:"";background:url(../images/icon-speech.png) left center no-repeat;position:absolute;left:-35px;top:0;height:44px;width:44px}
 .comment-item--details .more{font-size:18px;line-height:1.2}
 .morecontent span{display: none;}
 .morelink {display: block;font-size:13px;text-decoration:underline;cursor:pointer}
-.comment-item--footer{padding:10px 10px 15px 10px;display:block;margin-bottom:15px}
+.comment-item--footer{padding:10px 10px 5px 10px;display:block;margin-bottom:15px}
 .comment-item--commentlink{padding:10px 10px 10px 40px;font-size:13px;color:#4b4b4b;text-decoration:underline;position:relative;display:inline;margin-right:20px}
 .comment-item--commentlink:before{background:url(../images/icon-pen.png) left center no-repeat;width:12px;height:12px;position:absolute;content:"";left:20px;bottom:15px}
 .comment-item--tagwrap{float:right}
