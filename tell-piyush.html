@@ -65,14 +65,15 @@
   
     <!-- repeater start-->
     <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader kindling {{x.class}}" ng-repeat="blog in commentList.comments | filter: searchBox | limitTo: limitComments" isotope-item>
-      <a href="#{{blog._id}}comment" class="fancybox commment-item animate" ng-click='$emit("iso-method", {name:"layout",params:null});$emit("iso-option", {itemSelector: ".grid-item"})'>
+      <div class="commment-item animate comment-item-noFooter" ng-click='$emit("iso-method", {name:"layout",params:null});$emit("iso-option", {itemSelector: ".grid-item"})'>
         <div class="comment-item--details">
           <div class="comment-item--date">{{blog._date}}</div>
           <div class="more">
-            <show-more text="blog._content"> </show-more>
+            <show-more text="blog._content" limit="200"> </show-more>
           </div>
+          <a href="#{{blog._id}}comment" title="View" class="link-fancybox fancybox">View Response</a>
         </div>
-      </a>
+      </div>
     </div>
     <!-- repeater ends -->
     
@@ -88,30 +89,20 @@
 
 <div ng-repeat="blog in commentList.comments">
   <div id="{{blog._id}}comment" class="js-hide modal-comment">
-    <div class="commment-item animate">
+    <div class="commment-item animate comment-item--nomargin">
       <div class="comment-item--details">
         <div class="comment-item--date">{{blog._date}}</div>
         <div class="more">
           <p>{{blog._content}}</p>
         </div>
       </div>
-            <!--
-      <div class="comment-item--footer">
-
-        <a href="#" title="Comments" class="comment-item--commentlink">{{blog._commentnumber}} comments</a>
-        <a href="#" title="Comments" class="comment-item--commentlink">Post a reply</a>
-        <div class="comment-item--tagwrap">
-
-        </div>
-               
-      </div> -->
       <div class="comment-modal--comments">
         <div class="comment-modal--piyush">Piyush Gupta</div>
-        <div class="comment-modal--commentMain">Lorem ipsum</div>
+        <div class="comment-modal--commentMain">{{blog._answer}}</div>
       </div>
       <div class="comment-modal--otherComments">
         <div class="comment-modal--otherWrap">
-          <div class="comment-modal--commentReply">Lorem ipsum reply</div>
+          <div class="comment-modal--commentReply">{{blog._comment}}</div>
         </div>
       </div>
     </div>

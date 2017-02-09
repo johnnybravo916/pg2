@@ -25,6 +25,8 @@ function showMoreDirective() {
             scope.largeText = true;
           } else {
             var Element = iElement.context.childNodes[2];
+            var IeElement = iElement;
+            IeElement.addClass('ie-removeItem');
             Element.remove();
           }
           if (scope.text.length <= scope.limit) {
