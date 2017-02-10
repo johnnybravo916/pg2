@@ -18,16 +18,6 @@
 </head>
 <body ng-app="comments" ng-controller="BlogsCtrl as commentList">
 <!-- start header -->
-<div class="login-header">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="login-header--statement">To gain access to all of the site’s features, please <a href="#login" title="login" class="fancybox link-login">login</a> using your MyDBS ID</div>
-        <span class="js-close">Close</span>
-      </div>
-    </div>
-  </div>
-</div>
 <header class="header-main">
   <div class="container">
     <div class="row">
@@ -48,7 +38,16 @@
   </div>
 </section>
 <div class="container">
-
+  
+  <div class="row">
+    <div class="col-md-12">
+      <div class="post-intro">
+        <h2>Consectetur adipiscing elit. Mauris nunc urna</h2>
+        <p>Quisque maximus commodo eros sit amet sagittis. Donec ut dolor cursus, pulvinar purus eget, semper quam. Vestibulum id faucibus erat, eget tempus est. Praesent bibendum rhoncus convallis. Phasellus a metus eget turpis porta suscipit. Sed mattis vel urna ut pretium. Sed eu semper justo. Ut non orci ex. Phasellus in diam vitae mi dictum congue pellentesque quis dui. Morbi quis faucibus nunc. Etiam ex mauris, efficitur sit amet elit sed, lacinia rhoncus mauris.</p>
+      </div>
+    </div>
+  </div>
+  
   <div class="row">
     <div class="col-md-12">
       <div class="page-comment--search box-search">
@@ -67,7 +66,7 @@
     <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader kindling {{x.class}}" ng-repeat="blog in commentList.comments | filter: searchBox | limitTo: limitComments" isotope-item>
       <div class="commment-item animate comment-item-noFooter" ng-click='$emit("iso-method", {name:"layout",params:null});$emit("iso-option", {itemSelector: ".grid-item"})'>
         <div class="comment-item--details">
-          <div class="comment-item--date">{{blog._date}}</div>
+          <div class="comment-item--date"></div>
           <div class="more">
             <show-more text="blog._content" limit="200"> </show-more>
           </div>

@@ -130,15 +130,17 @@ $(document).ready(function() {
   } 
 
 //ISOTOPE FOR COMMENTS
-  if ($('.comment-item--block').length > 0){
-    $grid = $('.grid');
-    $grid.isotope({
-      itemSelector: '.grid-item',
-      percentPosition: true,
-      masonry: {
-        columnWidth: '.grid-sizer'
-      }
-    });   
+  if ($('.post-featured--comments').length > 0){
+    // $grid = $('.grid');
+    // $grid.isotope({
+      // itemSelector: '.grid-item',
+      // percentPosition: true,
+      // masonry: {
+        // columnWidth: '.grid-sizer'
+      // }
+    // });
+    console.log('true');
+    $('body').addClass('js-pgBlog');
   }  
 
 //COMMENT ITEMS
