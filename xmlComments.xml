@@ -1,96 +1,96 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <blogs>
-  <blog>
+   <blog>
     <id>1</id>
-    <date>2017 Q1</date>
-    <content><![CDATA[ <a href=google.com">sample link</a> I believe that the <strong>crowding</strong> of the lift lobby at DBS Asia Hub (DAH) has been highlighted many times before. Normally, the lifts are programmed such that once the button has been pressed, one lift will respond while the other lifts will be on standby if not occupied. However, during morning peak hours, we all know that one lift at a time is not enough. Thus, the default programming above is not effective, especially when the lifts on standby are usually at higher levels. People would usually see a full lift go up and wait for an empty one to come down from level nine. Will it be possible for the default standby level for all lifts to be at level one, i.e. all vacant lifts will automatically go back to level one and have their doors open on standby to cater to the morning crowd? The opposite can be applied in the evening.]]></content>
+    <date></date>
+    <content><![CDATA[ I believe that the crowding of the lift lobby at DBS Asia Hub (DAH) has been highlighted many times before.  Normally, the lifts are programmed such that once the button has been pressed, one lift will respond while the other lifts will be on standby if not occupied.  However, during morning peak hours, we all know that one lift at a time is not enough. Thus, the default programming above is not effective, especially when the lifts on standby are usually at higher levels. People would usually see a full lift go up and wait for an empty one to come down from level nine.  Will it be possible for the default standby level for all lifts to be at level one, i.e. all vacant lifts will automatically go back to level one and have their doors open on standby to cater to the morning crowd?  The opposite can be applied in the evening. ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
+    <tags><![CDATA[ <span>CRESA</span> ]]></tags>
     <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
   </blog>
-  <blog>
+   <blog>
     <id>2</id>
-    <date>2017 Q1</date>
-    <content>Would it be possible for us to have a shuttle bus from the north region (i.e. Woodlands / Sembawang)?</content>
+    <date></date>
+    <content><![CDATA[ Would it be possible for us to have a shuttle bus from the north region (i.e. Woodlands / Sembawang)? ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
-    <answer></answer>
+    <tags><![CDATA[<span>CRESA</span><span>WMO</span> <span>Group Human Resource</span> ]]></tags>
+    <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
   </blog>
-  <blog>
+   <blog>
     <id>3</id>
-    <date>2017 Q1</date>
-    <content>In the beginning, table decals were a clever way to drum up publicity for internal activities, competitions and policies. The situation seems to have gotten unwieldy now as there are stickers at social hub benches and tables at The Exchange in every direction. The wooden tables are now showing signs of wear when the decals are removed, as the varnish is affected by the adhesive. Is there a specific owner policing what stickers go up, how they are positioned and ensure furniture is touched up if there is damage?</content>
+    <date></date>
+    <content><![CDATA[ In the beginning, table decals were a clever way to drum up publicity for internal activities, competitions and policies. The situation seems to have gotten unwieldy now as there are stickers at social hub benches and tables at The Exchange in every direction. The wooden tables are now showing signs of wear when the decals are removed, as the varnish is affected by the adhesive. Is there a specific owner policing what stickers go up, how they are positioned and ensure furniture is touched up if there is damage? ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
+    <tags><![CDATA[ <span>CRESA</span> ]]></tags>
     <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
   </blog>
-  <blog>
+   <blog>
     <id>4</id>
-    <date>2017 Q1</date>
-    <content>It is nice to have an exclusive kitchen for the staff on level 13.  However, I would like to suggest that people stop 'chope-ing the seats with a tissue pack'. I reserve my opinion on this Singapore culture that is otherwise practised in a food court, but the whole point of having our own canteen is for us to have a quick and easy lunch. The queues are typically long and people need at least 10 minutes to complete their order, that is enough time for many people to finish their meal. Having the table reserved but not used while waiting defeats the purpose of having a staff canteen. It reduces the turnover tremendously and it is not good manners to fellow colleagues when half of the seats are empty but 'reserved'.</content>
+    <date></date>
+    <content><![CDATA[ It is nice to have an exclusive kitchen for the staff on level 13.  However, I would like to suggest that people stop 'chope-ing the seats with a tissue pack'. I reserve my opinion on this Singapore culture that is otherwise practised in a food court, but the whole point of having our own canteen is for us to have a quick and easy lunch. The queues are typically long and people need at least 10 minutes to complete their order, that is enough time for many people to finish their meal. Having the table reserved but not used while waiting defeats the purpose of having a staff canteen. It reduces the turnover tremendously and it is not good manners to fellow colleagues when half of the seats are empty but 'reserved'. ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
+    <tags><![CDATA[ <span>CRESA</span> ]]></tags>
     <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
-  </blog>
-  <blog>
+   </blog>
+   <blog>
     <id>5</id>
-    <date>2017 Q1</date>
-    <content>I think we should have a multi-faith meditation or prayer room in each of our buildings, no matter where they are (India, Singapore, Indonesia). This will be a good place for our Muslim and Christian friends to pray, but also for everyone to have a quiet area where they can reflect if the need arises. It will be good for cohesion - meant for everyone. When our Indonesian colleagues come over, it is also difficult for them to find a place to pray in our Singapore buildings.</content>
+    <date></date>
+    <content><![CDATA[ I think we should have a multi-faith meditation or prayer room in each of our buildings, no matter where they are (India, Singapore, Indonesia). This will be a good place for our Muslim and Christian friends to pray, but also for everyone to have a quiet area where they can reflect if the need arises. It will be good for cohesion - meant for everyone. When our Indonesian colleagues come over, it is also difficult for them to find a place to pray in our Singapore buildings. ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
+    <tags><![CDATA[ <span>CRESA</span> ]]></tags>
     <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
-  </blog>
-  <blog>
+  </blog> 
+   <blog>
     <id>6</id>
-    <date>2017 Q1</date>
-    <content>I want to share my experience in my previous company in the Philippines where the huddle rooms are transformed into themed rooms decorated with the appropriate wallpaper and furniture / accessories e.g. Rejuvenation Room (spa with a massage chair), Library (with books for sharing and a lazy boy), Boracay (beach wallpaper and beach chairs), Tennis Room (big soft tennis ball as a chair and a customised big shuttle cock lighting), Dance Room (with three walls of mirrors), Music Room (with musical equipment like a band), Forest Room (wallpaper of trees), Car Room (with racing car sets and TV, set up like an arcade), etc. We also had foosball tables in every pantry, a boxing room and a mini gym where exercise classes are conducted (similar to our 13F classes). It was so cool that it was featured in one of the local magazines and the company is regarded as one of the best employers in the country. 
-    
+    <date></date>
+    <content><![CDATA[ I want to share my experience in my previous company in the Philippines where the huddle rooms are transformed into themed rooms decorated with the appropriate wallpaper and furniture / accessories e.g. Rejuvenation Room (spa with a massage chair), Library (with books for sharing and a lazy boy), Boracay (beach wallpaper and beach chairs), Tennis Room (big soft tennis ball as a chair and a customised big shuttle cock lighting), Dance Room (with three walls of mirrors), Music Room (with musical equipment like a band), Forest Room (wallpaper of trees), Car Room (with racing car sets and TV, set up like an arcade), etc. We also had foosball tables in every pantry, a boxing room and a mini gym where exercise classes are conducted (similar to our 13F classes). It was so cool that it was featured in one of the local magazines and the company is regarded as one of the best employers in the country. 
+
   The rooms can be used through a booking system so that staff have the chance to use different themes. I think DBS employees will love it. For a start, aside from the foosball tables, we can transform one focus room or meeting room per floor or per department, into a themed room. Each floor / department can nominate the theme they want to install (within an approved budget (?), can top up(?)) and engage employees in the process. I think this will transform the view of going to meetings into a more exciting activity. We can be featured by office interior design magazines which will in turn attract talent to join our company (provided we have vacancies because I believe it's hard for people to leave such a cool company!). I also think that it will help us make working in DBS even more Joyful. It is like work-life balance is already brought into the office.
 
-  PS: I have been with DBS for four years now, two years and eight months as an external contractor, left to join another bank but came back after two months, one year and four months as a perm staff. Working with DBS makes me feel at home which is why I came back. And I hope to decorate my 'home' into a more joyful place. I'm thankful for this experience and I'm proud to be part of a great company.</content>
+  PS: I have been with DBS for four years now, two years and eight months as an external contractor, left to join another bank but came back after two months, one year and four months as a perm staff. Working with DBS makes me feel at home which is why I came back. And I hope to decorate my 'home' into a more joyful place. I'm thankful for this experience and I'm proud to be part of a great company. ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
+    <tags><![CDATA[ <span>CRESA</span> ]]></tags>
     <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
-  </blog>
-  <blog>
+  </blog> 
+   <blog>
     <id>7</id>
-    <date>2017 Q1</date>
-    <content>A few weeks ago, I had to do an early tech refresh as my Lenovo laptop's wireless card was faulty and was not longer under warranty. This inconvenienced me because I could not move from one location to another without having to restart my machine to get connected to the office network. Sometimes I had to restart my machine several times. I ordered the Microsoft Surface Pro 4, which was recently made available. My new machine was delivered in October and the set-up was only done some three weeks later in November.
+    <date></date>
+    <content><![CDATA[ A few weeks ago, I had to do an early tech refresh as my Lenovo laptop's wireless card was faulty and was not longer under warranty. This inconvenienced me because I could not move from one location to another without having to restart my machine to get connected to the office network. Sometimes I had to restart my machine several times. I ordered the Microsoft Surface Pro 4, which was recently made available. My new machine was delivered in October and the set-up was only done some three weeks later in November.
 
-  I tried time and again to request for the machine delivery and the set-up to coincide with each other, but I was informed that this was not possible as there were insufficient engineers to do the set-up. It did not make any sense for me to receive a new machine, only to have the new machine set-up three weeks later. In addition, I was also informed that I had to request for data transfer to be done, for which there would be additional charges. I wonder if the product bundle on EPS for tech refresh should include data transfer services (as opposed to that of request for new machines)?  How might we improve the employee experience for the staff who needs to get a new machine to do his / her job effectively?</content>
+  I tried time and again to request for the machine delivery and the set-up to coincide with each other, but I was informed that this was not possible as there were insufficient engineers to do the set-up. It did not make any sense for me to receive a new machine, only to have the new machine set-up three weeks later. In addition, I was also informed that I had to request for data transfer to be done, for which there would be additional charges. I wonder if the product bundle on EPS for tech refresh should include data transfer services (as opposed to that of request for new machines)?  How might we improve the employee experience for the staff who needs to get a new machine to do his / her job effectively? ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
+    <tags><![CDATA[ <span>T&amp;O</span> ]]></tags>
     <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
-  </blog>
+  </blog> 
   <blog>
     <id>8</id>
-    <date>2017 Q1</date>
-    <content>What would be three things that will define DAH2 a success or otherwise for FY2016 and FY 2017?</content>
+    <date></date>
+    <content><![CDATA[ What would be three things that will define DAH2 a success or otherwise for FY2016 and FY 2017? ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
+    <tags><![CDATA[ <span>T&amp;O</span> ]]></tags>
     <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
-  </blog>
-  <blog>
+  </blog> 
+   <blog>
     <id>9</id>
-    <date>2017 Q1</date>
-    <content>Staff at DBS Asia Hub 2 (DAH2) don't seem to be getting direct email messages from you, like the one you sent for the ANZ acquisition. In addition, O365 has not yet been rolled out at DAH2 and we cannot see your Yammer updates. It would be great if all staff can get O365 which would also help in addressing Outlook PST issues.</content>
+    <date></date>
+    <content><![CDATA[ Staff at DBS Asia Hub 2 (DAH2) don't seem to be getting direct email messages from you, like the one you sent for the ANZ acquisition. In addition, O365 has not yet been rolled out at DAH2 and we cannot see your Yammer updates. It would be great if all staff can get O365 which would also help in addressing Outlook PST issues. ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
+    <tags><![CDATA[ <span>T&amp;O</span> ]]></tags>
     <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
-  </blog>
-  <blog>
+  </blog> 
+   <blog>
     <id>10</id>
-    <date>2017 Q1</date>
-    <content>Thanks for giving us the opportunity to share with you.
+    <date></date>
+    <content><![CDATA[ Thanks for giving us the opportunity to share with you.
   This is regarding the Internet Banking and Mobile Banking Mainframe as well as deployment for different systems on Saturdays and Sundays.  We have noticed in the past two years that every release is deployed over the weekend. Could you please change it to working days?  Advantages of shifting it to working days:
 
   - All relevant parties (Technical, Management for approvals), besides just the planned support team will be available during deployment.  So if any issues arise, the resolution and approvals will be quick.
@@ -101,62 +101,729 @@
 
   - Team DBS can spend quality time with family and give more effort towards the DBS projects.
 
-  - This way, we can improve the ‘relationship-led’ in our PRIDE! values.</content>
+  - This way, we can improve the ‘relationship-led’ in our PRIDE! values. ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
+    <tags><![CDATA[ <span>T&amp;O</span> ]]></tags>
     <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
-  </blog>
+  </blog> 
   <blog>
     <id>11</id>
-    <date>2017 Q1</date>
-    <content>You have announced at the last DBS OPEN that GOOD access is now available to all staff. I think this is a great idea, especially for people like us who are always on the move and who had to stay back in office to clear emails. With O365, it will improve our efficiency tremendously. Thumbs up!
+    <date></date>
+    <content><![CDATA[ You have announced at the last DBS OPEN that GOOD access is now available to all staff. I think this is a great idea, especially for people like us who are always on the move and who had to stay back in office to clear emails. With O365, it will improve our efficiency tremendously. Thumbs up!
 
-  However, how can we address mobile data usage while using GOOD? 1Bankroam Wi-Fi within the office compound has been disabled with the reason that corporate lines are bundled with free data plans. We all know that corporate lines do not apply to AVPs and below. By having GOOD, usage within the office compound or out on the move may still not seem to be very ideal.</content>
+  However, how can we address mobile data usage while using GOOD? 1Bankroam Wi-Fi within the office compound has been disabled with the reason that corporate lines are bundled with free data plans. We all know that corporate lines do not apply to AVPs and below. By having GOOD, usage within the office compound or out on the move may still not seem to be very ideal. ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
+    <tags><![CDATA[ <span>T&amp;O</span> ]]></tags>
     <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
   </blog>
   <blog>
     <id>12</id>
-    <date>2017 Q1</date>
-    <content>The 1bankroam staff WI-FI has been abruptly terminated this September. It was stated in the Collaborative User Services intranet site that Starhub corporate lines have free data plans (I assume this is staff CIS plans) but I've checked with Starhub and there are no such free data plans.  This is the relevant section from the site.
-
-'As current Starhub corporate lines are bundled with free data plans, with effect from 16 September 2016, 1bankroam Wi-Fi service will be discontinued.'
-
-Can the 1bankroam WI-FI be restored?  For staff using the Good Work app on personal smartphones, it is consuming a large amount of data at our own expense.  Please consider bringing 1bankroam back to DBS premises.</content>
+    <date></date>
+    <content><![CDATA[ The 1bankroam staff WI-FI has been abruptly terminated this September. It was stated in the Collaborative User Services intranet site that Starhub corporate lines have free data plans (I assume this is staff CIS plans) but I've checked with Starhub and there are no such free data plans.  This is the relevant section from the site.
+    'As current Starhub corporate lines are bundled with free data plans, with effect from 16 September 2016, 1bankroam Wi-Fi service will be discontinued.'
+Can the 1bankroam WI-FI be restored?  For staff using the Good Work app on personal smartphones, it is consuming a large amount of data at our own expense.  Please consider bringing 1bankroam back to DBS premises. ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
+    <tags><![CDATA[ <span>T&amp;O</span> ]]></tags>
     <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
   </blog>
   <blog>
     <id>13</id>
-    <date>2017 Q1</date>
-    <content>It is sad that 1bankroam WI-FI is no longer available for staff.  We should keep in mind that not all staff have the company mobile data plan.</content>
+    <date></date>
+    <content><![CDATA[ It is sad that 1bankroam WI-FI is no longer available for staff.  We should keep in mind that not all staff have the company mobile data plan. ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
+    <tags><![CDATA[ <span>T&amp;O</span> ]]></tags>
     <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
   </blog>
   <blog>
     <id>14</id>
-    <date>2017 Q1</date>
-    <content>Lately, there has been a surge of emails asking staff to download apps such as DBS E-Learning, CBO Rewards, Good Work, Good Access, to name a few.  It's good that the bank is targeting Digital Banking. It should focus on customers instead of staff.  A handphone is a personal item and there is limited data, depending on the data plan. Free Wi-Fi has been disabled and who will pay if data usage is exceeded?  With all these apps, will work-life balance be affected?</content>
+    <date></date>
+    <content><![CDATA[ Lately, there has been a surge of emails asking staff to download apps such as DBS E-Learning, CBO Rewards, Good Work, Good Access, to name a few.  It's good that the bank is targeting Digital Banking. It should focus on customers instead of staff.  A handphone is a personal item and there is limited data, depending on the data plan. Free Wi-Fi has been disabled and who will pay if data usage is exceeded?  With all these apps, will work-life balance be affected? ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
+    <tags><![CDATA[ <span>T&amp;O</span> ]]></tags>
     <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
   </blog>
   <blog>
     <id>15</id>
-    <date>2017 Q1</date>
-    <content>Now that ‘Good’ is made available to all permanent staff, can we have Wi-Fi back? Not all permanent staff have corporate lines.</content>
+    <date></date>
+    <content><![CDATA[ Now that ‘Good’ is made available to all permanent staff, can we have Wi-Fi back? Not all permanent staff have corporate lines. ]]></content>
     <commentnumber>3</commentnumber>
-    <tags>CRESA</tags>
+    <tags><![CDATA[ <span>T&amp;O</span> ]]></tags>
     <answer>lorem ipsum answer</answer>
     <comment>lorem ipsum comment</comment>
+  </blog>
+  <blog>
+    <id>16</id>
+    <date></date>
+    <content><![CDATA[ The working culture in Operations is quite inefficient, with long response times and many approvals required. How can we improve this? Are there any incentives to motivate efficient staff in the back office? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>T&amp;O</span> ]]></tags>
+    <answer>lorem ipsum answer</answer>
+    <comment>lorem ipsum comment</comment>
+  </blog>
+  <blog>
+    <id>17</id>
+    <date></date>
+    <content><![CDATA[ In conjunction with the Kids@Work event that will held on 25 Nov, I would like to suggest that staff be allowed to have access to the bank’s WI-FI so that the kids can entertain themselves when they feel bored sitting in the office.  Alternatively, participating staff can be allowed to obtain the free Mobile WI-FI tickets from the reception counters that day. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags></tags>
+    <answer>lorem ipsum answer</answer>
+    <comment>lorem ipsum comment</comment>
+  </blog>
+  <blog>
+    <id>18</id>
+    <date></date>
+    <content><![CDATA[ The past D&amp;D was fantastic with the live band, the stars statue and performances although no one won the car.  However, the D&amp;D every year has always been the same, there is only dinner and we missed the dance. Should all staff be given the time go down to the dance floor and dance? Although we are not good dancers, some hip movements should shake away the stiffness we get when working at our desks! ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags></tags>
+    <answer>lorem ipsum answer</answer>
+    <comment>lorem ipsum comment</comment>
+  </blog>
+  <blog>
+    <id>19</id>
+    <date></date>
+    <content><![CDATA[ Thanks a lot for giving us the opportunity to be part of such a ‘world class’ bank with so much innovation in every aspect. I am proud to be part of this team.  We have a good bunch of cricketers in CBG who are very much interested to represent DBS in the Singapore Cricket Association - Corporate League from next season and would like to know if we would be able to get financial support from the bank.  This would also play a small part in promoting the DBS brand. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>REC Club</span> ]]></tags>
+    <answer>lorem ipsum answer</answer>
+    <comment>lorem ipsum comment</comment>
+  </blog>
+  <blog>
+    <id>20</id>
+    <date></date>
+    <content><![CDATA[ I've been working in DBS for 19 years but why does DBS pay little attention to employees’ salaries, especially those who have been working in the bank for a long time?  As we know, DBS is the biggest bank in Asia and it should pay attention to the welfare of staff. For example, my salary is only IDR 5,600,000.  After deductions for loan and tax of IDR 1,400,000, can you imagine how much I take home?  Mr Piyush, need your advice." commentnumber="3" tags="HR" answer="It is not correct to say that we don’t look at these things. In fact, our process for benchmarking salaries is actually very robust. First, we look at market comparisons and you have to understand that there is a market price for every job. We do market comparisons to understand the market price for the job and we are quite comfortable that the market levels are right.  We make sure that we benchmark against the right set of people who we want to compare with. 
+
+In deciding salary matters, there are many factors to consider. These include performance record, past experiences, skill-set, one’s potential and market conditions. We also make sure that we review for internal equity.
+
+Basically, the way to get a salary increase is to be able to move into bigger roles. Talk to your HR Business partner or supervisor about possible moves and job advancements to where the market compensates more. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags> </tags>
+    <answer>lorem ipsum answer</answer>
+    <comment>lorem ipsum comment</comment>
+  </blog>
+  <blog>
+    <id>21</id>
+    <date></date>
+    <content><![CDATA[ TCM claim is limited to five times a year, with each claim capped at SGD 30. Is it possible to remove the number of claims allowable and the claimable amount so that it’s similar to that of a Western Doctor? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer>Providing for TCM under company medical benefits is still not a market norm in Singapore today. We have taken a forward looking approach and gone above the market practice by covering TCM for up to 5 visits a year, as our insurer is prepared to cap the number of visits to 5 per year without significantly increasing our premium. You also have the option to use your iFlex$ for TCM claims, as well as other alternative medical practices e.g. Chiropractic.</answer>
+    <comment></comment>
+  </blog>
+  <blog>
+    <id>22</id>
+    <date></date>
+    <content><![CDATA[ I want to ask about the policy on onshore visits. As per the policy, there will not be any per diems and bills submitted will be claimed for food, travel etc. 
+
+But consider a scenario where we will be going to lunch with colleagues at the canteen in DAH Singapore, where only NFC cards are tapped to pay and no bills are provided. So we pay our colleagues but we cannot claim for the amount as there are no bills. In such scenarios we are losing our money on onshore visits.  During my recent trip, I paid 32K INR from my pocket towards food.  Please check and help us to update the policy to provide per diem or allow us to claim for meals without bills." commentnumber="3" tags="HR" answer="I have asked HR to look at this and see if we can come up with a more efficient and effective policy. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ ]]></tags>
+    <answer></answer>
+    <comment></comment>
+  </blog>
+  <blog>
+    <id>23</id>
+    <date></date>
+    <content><![CDATA[ The medical plans of my previous employers in Hong Kong would include coverage for spouses and children (at least for GP while some cover specialists and hospitalisation). It was a surprise to me that this wasn’t the case in DBS. Although the self-borne amount to add dependents to the plan is not a big sum, it's about how we think DBS cares about us.  I guess there may be reasons like how additional coverage may not be fair to those staff without dependents. But if others in the market can offer this, shouldn’t we also do so while we aim to be the best (to customers and staff)? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer>Benefits in each company is driven by its own benefits philosophy. The reality about benefits is that different people have different needs. Recognising that, we have chosen to create a flexible benefits programme which allows people to use the iFlex$ in their Flexible Spending Account to fund health and wellness related expenses for the entire family, and that includes upgrading of dependent’s medical coverage.</answer>
+    <comment></comment>
+  </blog>
+  <blog>
+    <id>24</id>
+    <date></date>
+    <content><![CDATA[ I am a contract staff supporting DBS in the infra team. Almost every weekend, I have jobs and drive on my own. Don’t I add sufficient value to claim my transport expenses based on mileage? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer>Thanks for the feedback. Understand that someone from HR has already spoken to you about this.</answer>
+    <comment></comment>
+  </blog>
+  <blog>
+    <id>25</id>
+    <date></date>
+    <content><![CDATA[ Our work-life balance is not good and there's a lack of flexi arrangements such as ad-hoc work-from-home culture where the scope of work permits.  Can DBS change culturally and catch up to the digital working style since we are proud to be the World’s Best Digital Bank? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ First, we do have an active policy encouraging flexi-work arrangements and one of the things that we have done in the last couple of years is encourage HR to communicate and make sure people understand what the policy is – flexible work hours, working part-time etc.
+
+Second, we realised that even though the policy exists, the inability to access systems can be an impediment. You should recognise that as a bank, we need to balance between a much higher level of security with remote access. However, within that constraint, we are now reviewing and giving more and more access to employees. Last year we gave all permanent employees the option to have ‘Good Work’ (now renamed as BlackBerry Work). This is an example of a bold step in that direction. As we make more changes, more can access from home.
+
+Third, there will be some systems that will still be difficult to access. But I have asked individual BUSUs to explore with FCSS what systems they are and what systems they are more open to externalising. Over time, we are also looking at moving to cloud, as we do that, it should make it easier for more people to get remote access to the systems.
+
+Fourth, having said all that, I do think there is some value for people to interact and have face time. And in that regard, working together and interacting creates a much higher level of productivity, we do need to get the balance right. I think creating interactions, working together and working in teams is as important to create innovation and productivity. ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>26</id>
+    <date></date>
+    <content><![CDATA[ The facetime culture is a very traditional culture which discourages efficient workflows. The strong facetime culture also sacrifices employees’ work-life balance.  Can this be changed via a top-down approach? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ First, we do have an active policy encouraging flexi-work arrangements and one of the things that we have done in the last couple of years is encourage HR to communicate and make sure people understand what the policy is – flexible work hours, working part-time etc.
+
+Second, we realised that even though the policy exists, the inability to access systems can be an impediment. You should recognise that as a bank, we need to balance between a much higher level of security with remote access. However, within that constraint, we are now reviewing and giving more and more access to employees. Last year we gave all permanent employees the option to have ‘Good Work’ (now renamed as BlackBerry Work). This is an example of a bold step in that direction. As we make more changes, more can access from home.
+
+Third, there will be some systems that will still be difficult to access. But I have asked individual BUSUs to explore with FCSS what systems they are and what systems they are more open to externalising. Over time, we are also looking at moving to cloud, as we do that, it should make it easier for more people to get remote access to the systems.
+
+Fourth, having said all that, I do think there is some value for people to interact and have face time. And in that regard, working together and interacting creates a much higher level of productivity, we do need to get the balance right. I think creating interactions, working together and working in teams is as important to create innovation and productivity. ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>27</id>
+    <date></date>
+    <content><![CDATA[ Many companies have embarked on flexi-work arrangements and allowing employees to work from home when work permits.  However, the face-time culture is still extremely strong in DBS. Most managers do not allow working from home and even expect employees to ‘show’ that they work long hours as a benchmark of how hardworking they are.  This discourages efficiency and is counterproductive. I hope to see a change of tone from the top and for the bank to formally allow working from home once a week or in some way or another. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ First, we do have an active policy encouraging flexi-work arrangements and one of the things that we have done in the last couple of years is encourage HR to communicate and make sure people understand what the policy is – flexible work hours, working part-time etc.
+
+Second, we realised that even though the policy exists, the inability to access systems can be an impediment. You should recognise that as a bank, we need to balance between a much higher level of security with remote access. However, within that constraint, we are now reviewing and giving more and more access to employees. Last year we gave all permanent employees the option to have ‘Good Work’ (now renamed as BlackBerry Work). This is an example of a bold step in that direction. As we make more changes, more can access from home.
+
+Third, there will be some systems that will still be difficult to access. But I have asked individual BUSUs to explore with FCSS what systems they are and what systems they are more open to externalising. Over time, we are also looking at moving to cloud, as we do that, it should make it easier for more people to get remote access to the systems.
+
+Fourth, having said all that, I do think there is some value for people to interact and have face time. And in that regard, working together and interacting creates a much higher level of productivity, we do need to get the balance right. I think creating interactions, working together and working in teams is as important to create innovation and productivity. ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>28</id>
+    <date></date>
+    <content><![CDATA[ May I know why is it that our bosses here think that if we go home on time or earlier than those working overtime that we do not have enough work? Why is it that our managers have such thoughts instead of thinking that employees are efficient? They make us record our every single deal / task done in this MKT / Dwor, but it is very time consuming and not efficient at all. Most of the time, people do not reflect a true figure. We already have enough BAU and non-BAU work to cover but seems like it’s never enough from the managers' view. It is sad that this is happening and is affecting our attitude towards the bank as a whole. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ First, we do have an active policy encouraging flexi-work arrangements and one of the things that we have done in the last couple of years is encourage HR to communicate and make sure people understand what the policy is – flexible work hours, working part-time etc.
+
+Second, we realised that even though the policy exists, the inability to access systems can be an impediment. You should recognise that as a bank, we need to balance between a much higher level of security with remote access. However, within that constraint, we are now reviewing and giving more and more access to employees. Last year we gave all permanent employees the option to have ‘Good Work’ (now renamed as BlackBerry Work). This is an example of a bold step in that direction. As we make more changes, more can access from home.
+
+Third, there will be some systems that will still be difficult to access. But I have asked individual BUSUs to explore with FCSS what systems they are and what systems they are more open to externalising. Over time, we are also looking at moving to cloud, as we do that, it should make it easier for more people to get remote access to the systems.
+
+Fourth, having said all that, I do think there is some value for people to interact and have face time. And in that regard, working together and interacting creates a much higher level of productivity, we do need to get the balance right. I think creating interactions, working together and working in teams is as important to create innovation and productivity. ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>29</id>
+    <date></date>
+    <content><![CDATA[ When employees are unwell and supposed to be on medical leave, they are still working and coming into the office. This risks the potential spreading of viruses to others (and some of us have young children who are susceptible to the virus if we fall sick), and also means that the employee is unable to rest and recover.
+
+This arises because there is an unspoken pressure / fear of being marked down by bosses while on MC.  Can the bank encourage a better working culture by supporting employees in their medical appointment / leave needs via a top-down approach? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ Quite categorically, if you are not well you should take medical leave. I have asked HR to create a policy that allows us to make it easier to take one-day medical leave without producing MC.
+
+Note: The Medical Certificate (MC) policy on taking one-day sick leave without the need to produce MC has been standardised across the region. ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>30</id>
+    <date></date>
+    <content><![CDATA[ OCBC has recently launched an onsite childcare centre in their Cecil street office for staff, with extended hours to 7:30pm and providing dinner for the child as well. Any idea if DBS could offer the same for our staff? As a working mum, a childcare centre close to the office will definitely give me peace of mind and I do not have to rush to the centre before the usual timeline of 7pm. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ We looked at the idea of creating our own childcare centre but we found it more efficient to work with other existing childcare providers. As a result, we currently have tie-ups with numerous childcare centres so that staff with young children can have easy access to child care services at special discounts and priority admissions. Currently, we have tie-ups with the following childcare centres:<ul>
+      <li>Kinderland Educare Services Pte Ltd (8 centres) – Valid till 31 Dec 2017</li><li>DEL-Care (1 centre at Anson Road) – Valid till 31 Dec 2017</li><li>Busy Bees Asia (24 centres) – Valid till 29 May 2018</li><li>There are plans to also include ‘Little Skool House’ for priority enrolment. </li>
+    </ul>Do check out the updated list under staff deals here:  <a href="http://mydbs.net/Pages/ContentTemplate1.aspx?id=30198&amp;taxid=176553" title="deals">click link</a>
+
+To help staff manage their commitments better, we do offer flexible working hours and part-time work arrangements on case-by-case basis ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>31</id>
+    <date></date>
+    <content><![CDATA[ I have many colleagues who are working mothers. I have seen how it’s a daily challenge for them to leave on time to pick up their kids up before 7pm. It is also not easy to find trusted childcare within a reasonable proximity.
+
+Will DBS consider incorporating a childcare centre within the premises (the same way OCBC recently did)? This will go a long way in branding DBS as a family-friendly company and really incorporate work-life integration. I also believe this will build strong employee loyalty as we will be able to fully integrate our work commitments and family life.
+
+As a working father, I will also appreciate having the peace of mind with a work place childcare centre and this does translate into more efficiency and better focus at work. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ We looked at the idea of creating our own childcare centre but we found it more efficient to work with other existing childcare providers. As a result, we currently have tie-ups with numerous childcare centres so that staff with young children can have easy access to child care services at special discounts and priority admissions. Currently, we have tie-ups with the following childcare centres:<ul>
+      <li>Kinderland Educare Services Pte Ltd (8 centres) – Valid till 31 Dec 2017</li><li>DEL-Care (1 centre at Anson Road) – Valid till 31 Dec 2017</li><li>Busy Bees Asia (24 centres) – Valid till 29 May 2018</li><li>There are plans to also include ‘Little Skool House’ for priority enrolment. </li>
+    </ul>Do check out the updated list under staff deals here:  <a href="http://mydbs.net/Pages/ContentTemplate1.aspx?id=30198&amp;taxid=176553" title="deals">click link</a>
+
+To help staff manage their commitments better, we do offer flexible working hours and part-time work arrangements on case-by-case basis ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>32</id>
+    <date></date>
+    <content><![CDATA[ I joined DBS Hong Kong a few years ago and opened a consolidation statement account as my Staff Account. After one year, some of CBG staff visited our office and promoted a Treasures Account. They claimed that as a staff privilege, no minimum deposit requirement is needed (when the usual average monthly deposit requirement is HKD 1M).
+
+However, I abruptly received a letter in early November informing me that my DBS Staff Account has been downgraded as it didn’t meet the minimum deposit requirement. I called my RM and told her my feelings. She claimed that there is no way to help us upgrade as the change of policy was raised by top management – with the exception of SVPs, all DBS staff who do not meet the minimum deposit requirement will have their Staff Accounts downgraded.  I'm very disappointed with this policy change, which implies a strong class concept among staff.  While I haven't reaped any special benefits from the Treasures Account, the change has certainly made me lose my sense of belonging.  I apologise for taking up your time but I thought I should share this sentiment from the ground. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>33</id>
+    <date></date>
+    <content><![CDATA[ I am a single parent and I live quite far away from the office so I need three hours for transportation. I also need to spend almost half of my salary for my ex-spouse’s monthly maintenance so travelling between home and office would cost me a lot. My daily work requires a computer and a phone. I am already given a mobile phone for work so I just need the network team to add the network card’s physical address to the bank's firewall so that I can access some internet systems from home.  I wish to work from home to have more time to look after my child and also to save money. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>T&amp;O</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>34</id>
+    <date></date>
+    <content><![CDATA[ Is the stack ranking of employees also applicable to MDs and do the lower-ranked MDs get any bonus? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ In my message to all of you in July, I outlined our performance management philosophy on eliminating pre-targeted distribution across ratings. Rather than “stack ranking employees by specific rank”, I would like to highlight once again that performance is measured on an absolute basis against the individual employee’s targets / goals. It takes into consideration a balanced scorecard approach, which includes customer, risk and control elements beyond revenue. From a broader organisation perspective, there will be a test of reasonableness across the performance rating distribution.
+
+Having said that, bonuses should not be seen as an entitlement but rather it is granted for performing or achieving above one’s goals, regardless of rank. It is not a guaranteed payment and not everyone will receive a bonus. ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>35</id>
+    <date></date>
+    <content><![CDATA[ The scorecard ratings are shared among the management’s direct reports, which creates an unhealthy and competitive environment. This will lead to individuals comparing their ratings, make rebuttals and request for the ratings to be changed. Should scorecard ratings be done / measured by independent parties and not from the same BU / SU / department? This will help to ensure fairness and prevent conflicts of interest. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>36</id>
+    <date></date>
+    <content><![CDATA[ In 201X, when I decided to pursue my Degree in Banking and Management, I faced a lot of opposition from my TM as I was told that doing a Degree does not guarantee a promotion. While I was discouraged by what he said, I agreed with what he said. I want to have a degree as a safety net for my own future, but I was nearly asked to leave the bank within a certain period of time. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ I do agree that promotion is a function of your performance and job size, and not academic qualifications alone.
+
+If you feel that pursuing a degree is the right thing for yourself, go for it! Depending on the role you are in now or roles you may be interested in the future, a degree in banking and management may provide you with a base of knowledge to build on. However, nothing beats having the actual experience and exposure of performing a specific role. Do weigh the pros and cons and decide for yourself what doors it can possibly open for you in your career.
+
+If you believe your supervisor is making it difficult for you to pursue and further your education, please talk to your Business HR partner ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>37</id>
+    <date></date>
+    <content><![CDATA[ I have always liked to learn and upgrade my skill sets. However, while Learning &amp; Development has many interesting courses, I may not have the blessing of my immediate superior who feels that the courses may not be relevant to me (although I am very interested in them) and does not approve my request. Perhaps, it could also be because of staff strength issues. Is it possible for certain courses to not require approval and allow staff to enrol straight away? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ I don’t think this is the general rule. And from what I can see, only 0.5% of the total number of enrolments were turned down by their supervisors. It is an exception and this is a small population. If you have a problem speaking with your supervisor, talk to your Business HR partner. ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>38</id>
+    <date></date>
+    <content><![CDATA[ Many a times, there are staff who resign from Dept. A and re-join the bank in Dept. B within one to two months as they did not meet the two-year requirement for internal transfer. To be fair to other staff who have waited to fulfil the two-year requirement, should there be a policy that staff who resigned would not be able to re-join the bank within a year? This will also make them think properly before putting in their resignation. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ We are careful about rehiring for these purposes. We are selective on re-hiring and there must be a good business reason to why we take them into consideration. Actually, it doesn’t seem to be a general problem. We rehired 98 people in 2016, which only 4 were within a year. ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>39</id>
+    <date></date>
+    <content><![CDATA[ With a lot of expansion happening in India and new avenues opening up, I have observed that we have mostly recruited people from outside for various roles in the organisation. It is not that there is a dearth of talent within the organisation, but it is definitely true that we are not training our staff enough to move to the next level. Even horizontal movements within various departments are very rare. While new departments are opening up, people within the organisation are given very few opportunities. While we are all very excited with the way the bank is moving forward, what it holds for us individually in terms of growth is unclear. If people from within the organisation can be trained and involved in various functions, it could open up a whole new world of opportunities for people who want to be with DBS for the long haul. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ Our internal mobility numbers have been trending upwards over the years. I checked the data for India and find that this is consistent, about 30% of vacancies have been filled internally in 2016. With the expansion of any business, we need to hire externally to be able to fill or back-fill those roles. 
+
+In the recent case of hiring for DAH2 in India, you have to understand that it is a complete start-up situation and the flow between the bank and DAH2 is not expected to be significant as the skillsets are all very different, however this is something we will work on. 
+
+In the meantime, you should continue to take responsibility for your own career. Reach out to areas where you think there are opportunities for you to develop and grow that will get you to the next level. ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>40</id>
+    <date></date>
+    <content><![CDATA[ This year, there was an emphasis on internal mobility and we heard you being a strong advocate of this, in particular, telling the organisation 'I encourage you to experience different areas of banking in your careers'.
+
+Unfortunately with the traditional thinking of our HR organisation and hiring managers, this is impossible. They don't trust the power of past experience, education and learning; but would only consider moves within the same domain and expect applicants to be a 99% match to the super-detailed job descriptions. Maybe hiring managers think it is a burden on their KPIs as they need to spend time to interview candidates and give them necessary training before they reach 100% of their expected performance.
+
+Another criticism on internal mobility - we are a regional organisation with a growing footprint in Asia. But I don't see internal mobility happening between countries, except for some senior managers in the last couple of years.  This is especially so for roles in Hong Kong – they are managed by a separate HR team, who don’t update the status of applications on the online portal. Applications that came in four to five months ago remain with the status ‘resume acknowledged’. No one can tell who acknowledged it and what would happen next, if a candidate was not selected, what was the reason behind it. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ We have made reasonably good progress in Internal Mobility, with about 30% of all our vacancies filled internally. And increasingly, our people are willing to take a shot on people without appropriate experiences, obviously more visible at senior levels, less at junior levels. Nevertheless, this is something that we will continue to push and encouraging people to hire internally first, because of many obvious advantages. I have also asked HR to tighten the Internal Mobility process, including updating the portal in a timely manner. 
+
+On your point of cross-border mobility, we had 88 cross-border moves last year. Cross-border mobility tends to be a one-on-one arrangement, and you try and make the economics work on a one-on-one basis. While we encourage people to apply, we are also cognisant of the fact that sometimes it is not that easy. Apart from everything else, they are expensive. At junior levels, a lot of people choose not to move because it is hard to make the economics work. ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>41</id>
+    <date></date>
+    <content><![CDATA[ We need more cross-domain meetings / organisations in the bank for people to interact and share their business / social knowledge. This is the key to attain Google’s innovative DNA.
+
+Office365-Yammer is a good way of bringing people together online. But I think the same should be done more often offline through interest groups, cross-learning workshops, which can be business-related or completely non-work. There were some attempts in the past for such gatherings but they were barely visible and people missed it.  How do we encourage people to open up outside their departments and gather for some business / social occasions outside their day-to-day job descriptions? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ One of the advantages of Yammer is that everybody can create their own user-defined groups, and you can get people to share your interests just to name a few. There can only be so much orchestrating you can do at the enterprise level. Having that being said, there are things that we try to do like DBS People of Purpose, GuruCOOL, and the Rec Club to bring lots of these opportunities for staff to be involved and contribute to the various initiatives. ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>42</id>
+    <date></date>
+    <content><![CDATA[ I am from Taiwan although I am a Management Associate (MA) in Hong Kong. I would like to let you know that my experience in the MA Programme so far is excellent! First of all, we got to visit Singapore and meet with other MAs from the other five markets. We also got to talk to all the managers and professionals from different units. Last but not least, we got to visit you and Mrs. Gupta at your house!  My first and current rotation is in T&amp;O and my managers Freda and Clement are really willing to teach me and let me ask anything! This is the culture that I like about DBS: everyone is generous and willing to share. DBS has so much to offer and I can't wait to contribute to DBS and enjoy the journey! ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ I am glad that you have a fulfilling experience on the programme and this will spur us on to continue to find ways to make the MA programme more wholesome! Our PRIDE! values have been in our hearts and minds leading us the way to go the extra mile and go beyond our day-to-day work by creating joyful Customer and Employee Journeys. Please continue to give us your feedback so that we can continue to improve the employee journey for MAs. ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>43</id>
+    <date></date>
+    <content><![CDATA[ I have two ideas.
+    
+1. Learning &amp; Development
+Here are some facts about DBS.  To connect the dots, why don't we build an app which can link all these facts for staff to put in their committed hours and other project managers to put in their assignments / projects?
+
+a. DBS is a universal bank
+b. We are in digital era and DBS embraces digital
+c. Experience is the most effective way to learn
+d. There are projects / assignments in DBS which lack resources
+e. There is capacity elsewhere in the bank which can be optimised.
+f. Managers are actually willing to develop and give more exposure to their team members.
+
+2. DBS Souvenir
+
+I am a loyal and happy employee who is really proud to use DBS-branded items e.g. tumblers, pens, umbrellas, etc. I guess I'm not the only one and I think DBS can sell these to employees so that we can give it to our family or colleagues. This can be useful for branding and marketing too." commentnumber="3" tags="HR, GSMC" answer="Thanks for the suggestion, we have been thinking of the same thing. In fact, we will also be launching the DBS Xplore Programme, where staff can take up short-term projects from other departments through an online platform. More information will be made available early this year. Do look out for the announcement. GSMC is exploring this idea and they should be able to come up with something in the course of this year. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[  ]]></tags>
+    <answer><![CDATA[ ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>44</id>
+    <date></date>
+    <content><![CDATA[ When the cost of a digital customer was shared during the World’s Best Digital Bank Award announcement, I found that number very meaningful because it helps to entrench the importance and significance of everyone rallying around the priority of embracing digital. So why not calculate the cost of a digital employee as well? To be honest, how do we move towards digitisation of a customer journey without concurrently doing the same for the employee journey, especially since we are dependent on employees? I feel equal weightage needs to be placed on both efforts and that should include metrics and measurements to count the cost of a digital employee. This would help us know if the so-called future of work tools and infrastructure we have are truly helping employees to become not just digital-savvy, but really getting work done faster and easier. 
+
+Most importantly, how do we expect to continually embed ourselves in the customer journey, put ourselves in their shoes, reimagine and shape banking, when we are not in that environment of a digital journey ourselves? When we know how to do things better, we will be in a better position to envision this for customers. This will also help minimise dissonance between perceived vs actual reality. The smaller the dissonance, the less the conflict within an employee, then the cause and purpose of making banking joyful will become truly a way of life for employees.  When we start measuring the big picture, then we can at least have a benchmark and keep hacking away till we get things right.  Would be great if digital value and P&amp;L includes customers as well as employees. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CEO</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>45</id>
+    <date></date>
+    <content><![CDATA[ Could AON Hewitt come up with an indication of what an increase in overall MyVoice score means, especially in meaningful tiers, be it from 1-5%, or 6 to 10% etc.? It'll help us tell what it really means for mindset or culture changes with a score improvement, versus a mere number tally, this one segment score increases therefore a mathematical equation tells you that the overall score would naturally be higher. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>HR</span> ]]></tags>
+    <answer><![CDATA[ AON advises us if our scores are statistically significant year-on-year against our industry. However, the score is just an indicator and we use this as a temperature check of what we need to do with the rich feedback that we get from the survey is what we should focus on. ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>46</id>
+    <date></date>
+    <content><![CDATA[ I am an Indian holding an Employment Pass (EP).  When i checked with POSB about getting a Cashline loan, they told that it is only for PRs and citizens.  I feel very sad about this.  Can you please provide it for EP holders so that we can use it for emergency medical and family expenses? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>47</id>
+    <date></date>
+    <content><![CDATA[ I was recently (02/11/16) transferred to Treasures Safekeeping Centre. I understand that the centre operates daily from 8.30am to 10pm, including the Chinese New Year public holidays.  I am the only Malay working alongside five other Chinese colleagues. I empathise with them having to work on Chinese New Year. Could you consider closing the centre on this particular day (the first day of CNY) so that they can celebrate the auspicious occasion with their families?  I believe our customers will understand if the centre is closed for only one day in a year. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>48</id>
+    <date></date>
+    <content><![CDATA[ Our branch banking hours are getting later and later.  We are deprived of quality family time, with many officers being at the branch for more than 12 hours per day. We are not happy.  Can you do something about this? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>49</id>
+    <date></date>
+    <content><![CDATA[ A change in operating hours will be implemented at POSB JP branch next year.  Our daily working hours will be reduced but we will be working more days which results in us clocking more weekly hours (somewhere between three to five). Our break time will get cut by 2/3 (to just 30 minutes a day), and our allowance will be reduced. I feel that these adjustments are not fair to us at all. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>50</id>
+    <date></date>
+    <content><![CDATA[ I am from POSB Yishun North Centre. We understand that many branches are revising their banking hours to close early on weekdays and weekends. However, our branch is still maintaining the same operating hours which are from 8.30am to 8.30pm on weekdays and 8.30am to 3.00pm on Saturdays and Sundays.  As a result of these changes, there are more customers coming to our branch as we are one of the only four branches in Singapore that open on Sundays and for night banking till 8.30pm on weekdays. 
+
+Consequently, our branch staff are always overworked and get home late.  I hope that our banking hours can be standardised with other DBS and POSB branches. Alternatively, I hope that some increment can be given to our staff allowance to compensate for the hectic working hours.  I hope you will hear our feedback. Your understanding and consideration in this matter is much appreciated. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CBG</span> ]]></tags>
+    <answer><![CDATA[ ]]></answer>
+    <comment><![CDATA[ ]]></comment>
+  </blog>
+  <blog>
+    <id>51</id>
+    <date></date>
+    <content><![CDATA[ I am taking care of the India mortgage business. The overall business shaped up quite well and in less than two years, we are heading towards breakeven. But I always felt that we could have done far better. There are lots of areas where we need to improve as a bank to ensure faster growth.
+
+1. Any changes to process, products and technology takes an abnormally long time. Maybe too many people are involved and there is not enough empowerment.
+
+2. Launching a new product is a nightmare (sorry for using this word). There has to be a core team who should meet weekly and take it forward.  Participation of at least one member from the regional team should be mandatory to study the market with local support and give his / her expert views to the regional team as most of the time, product design happens without local input in absence of local market expertise. This leads to adverse selection of customers as well as the need to spend lots of time modifying the product with great difficulty.
+
+3. While your vision of ‘No Ops’ is quite encouraging, our basic rules and regulations prevents us from implementing that. Technology and outsourcing are the keys which can make this happen, but unfortunately, the cost of technology for us is way too high to even think about. If we look at local technology solutions, it will give us the edge of getting things done quicker and cheaper. For example, we spent almost INR 12 Crs for a LOS &amp; LMS for mortgage in India even before starting the business and we are still spending on that to localise it. A local LOS would have done this in just one third of that price with all upgrades.
+
+4. ‘Outsourcing’ - the way to go to achieve low cost and high productivity. We avoid it not because we don’t want to do it, but because of the process which takes about six months, if I am lucky enough. That too, is a full day job. Either we have a simple process-based business heads recommendation as we are responsible for our numbers and risk anyway, or there can be a specialised team who will get this done for the business based on demand and timeline.
+
+5. Basic banking facilities - we need to understand what is important for customers and prioritise spending on that. For example, customers don’t get SMS if there is a credit in the account which is a basic requirement for any customer. There are lots of other basic banking facilities like this which is missing in our way of banking, though we have started working on those now. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>52</id>
+    <date></date>
+    <content><![CDATA[ Could we get a DBS ATM at DAH 2? Our employees are waiting in long queues during the lunch hour, so if we could have a DBS ATM in our office, it should benefit everyone. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>T&amp;0</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>53</id>
+    <date></date>
+    <content><![CDATA[ Just want to bring up my suggestion that our bank should align our TravellerShield promotion across all platforms. This is because there have been complaints that we are cheating customers when they buy TravellerShield over the counter from branches as they get a lower discount rate as compared to when they purchase online when the coverage is actually the same. Staff at branches also need to sell General Insurance as part of our KPI so we will definitely push for sales over the counter rather than getting customers to purchase online.  But we are losing sales to our online platform because of the high discount rate offered. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>54</id>
+    <date></date>
+    <content><![CDATA[ I attended an ‘Intro to Sign Language’ course under DBS SkillsFlex a few months back. The trainer has highlighted that it's difficult for them to make any banking transaction over the phone as they cannot talk.  Why don’t we allow these individuals with disabilities to appoint a Power of Attorney / Mandate to act on their behalf so that they can help to make banking transactions easily? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>55</id>
+    <date></date>
+    <content><![CDATA[ It was my pleasure to chat with you during our branch Grand Opening at Raffles Medical Holland Village. I understand that this is not within my job scope as an RM, but I would like to urgently highlight the collaboration issue between Hoshino Coffee (DNH CO JP) and DBS.
+
+Hoshino Coffee’s General Manager Mr Raymond Goh is a good friend of mine. Up till today, there has been no response from the DBS Marketing team to Raymond about whether DBS is keen to collaborate with them on DBS Cards promotion etc. Months ago, an email was sent by my West Region Banassurance Manager, Dominic Koh to DBS Marketing. Please kindly contact Mr Sakai Kengo, Asia Pacific Manager from DNH CO JP at (sakai@dnh.co.jp) or Mr Raymond Goh, GM of Hoshino Coffee (mobile: 98564907) as they have already prioritised our bank over the ready offer made by OCBC and they have been waiting for DBS’ reply.
+I would really want to email this to you but the hierarchical system in DBS doesn't allow me to do so as I have to go through my Branch Business Manager and many levels of authority to inform you. Looking forward to hear from you! ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>56</id>
+    <date></date>
+    <content><![CDATA[ There is currently a service centre at DBS Arcade.  There were a lot of ATMs previously, but since they closed the POSB branch and transferred the ATMs to a smaller unit near the service centre, there has been a lot of complaints.  There are two ATMs, a cheque deposit machine (CDM), an AXS machine, and two Cash Acceptance Machines which serve as ‘recyclers’, i.e. customers will only be able to withdraw cash if someone else deposits cash, all in a very tight space.  There is a non-stop queue of people trying to withdraw money to change with the money-changers.  As a result of this, the ATMs and CDMs naturally run out of cash very quickly and they are out of service most of the time. The queue is so long that it extends from the tiny lobby past the service centre entrance, blocking the entrance and other shops.
+
+Customers get very upset and come in to the service centre to scream at staff.  As much as the service centre staff are patient and understanding, it gets really trying with the increasing number of angry customers.  As I understand that the bank is moving towards cashless payments, I suggest that we work out a way with the money-changers for customers to buy currencies using Paylah, PayWave or Apple Pay.  There must be a smarter way to handle these cash-hungry customers and money-changers.  I am positive that the money changers will want to adopt a better method to increase their sales and reduce their cash on-hand.  It’s up to us to set the change in motion. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>57</id>
+    <date></date>
+    <content><![CDATA[ I'm asking this on a customer’s behalf.  She deposits cheques from other issuers regularly into her DBS account, sometimes a few cheques at a time and they may be of the same amount. Her feedback is for the cheque number of the cleared cheques to be reflected on our customer statements. She mentioned that other banks are already doing so - it will be easier for her to track which are the cheques that have been cleared because it’s difficult for her to get to the issuer every time. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>58</id>
+    <date></date>
+    <content><![CDATA[ One of our five pillars is ‘Asian Connectivity’, which to me, includes being able to leverage on the knowledge and expertise of DBS professionals in various locales and collaborate seamlessly towards delivering value-added services. In light of the ever-increasing interdependence between countries / corporates in the region, in what ways do you think can DBS enhance our internal Asian Connectivity to capture these cross-border opportunities? How can we avoid working in silos and be locally-focused, yet adopt a global / regional perspective and be able to execute with our bank's full capability across countries? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>59</id>
+    <date></date>
+    <content><![CDATA[ Currently in India, we treat a customer as belonging to either CBG or IBG. We have yet to introduce the concept of partnership segment where a single customer can be sourced by multiple business groups and such groups can simultaneously be given shadow credit for sourcing that client. By introducing the partnership concept, we can take advantage of business synergies leading to better cross-sell and help generate more profits for the bank. A suggestion to be considered. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CEO India</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>60</id>
+    <date></date>
+    <content><![CDATA[ DBS has been doing a lot through community services to give back to society. e.g. DBS Foundation, People of Purpose, supporting social enterprises in Asia etc.  What have we done in our banking services for the underprivileged community? Do we have measures in place to make banking joyful for them as well? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>GSMC</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>61</id>
+    <date></date>
+    <content><![CDATA[ As part of our continuous efforts to contribute back to society through CSR, would it be possible for us to also explore providing complimentary account services (e.g. IDEAL3) to non-profit organisations (e.g. charities and religious organisations)? It would help to enhance the security and convenience for these organisations, which still rely very heavily on manual and traditional methods of payments. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>IBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>62</id>
+    <date></date>
+    <content><![CDATA[ SME Banking, especially the asset business, requires more tailor-made ‘judgmental’ solutions.  Banks typically provide equal weightage to both financial and non-financial parameters.  We have a local parameterised programme which is more readymade in nature and does not recognise the differing financial profiles of enterprises by industry, market, product. This can become a hurdle to our business growth. I request your view to address this challenge. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>IBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>63</id>
+    <date></date>
+    <content><![CDATA[ I understand that our cash management team is exploring future opportunities. I wonder if the opportunities could be related to family office / GTS / fiduciary services?  There is an increasing volume of family office banking with private banks in the region. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>IBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>64</id>
+    <date></date>
+    <content><![CDATA[ Customers often express their frustration that the bank is very inefficient in our processes, because there are a lot of matters we can't handle online in IBG. One example is audit confirmations. Banks in the US are using platforms such as www.confirmation.com which allow customers to receive their confirmations in 30 minutes. That's just one example. So many issues require original paperwork and high courier costs. Why is DBS so slow to digitise in these areas despite being the world's Best Digital Bank? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>IBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>65</id>
+    <date></date>
+    <content><![CDATA[ At the beginning or end of each month, Customer Service Officers (CSOs) receive plenty of requests for term loan statements. We were informed that these statements are sent to customers on a yearly basis. However, for many of our corporate customers who need to do accounting, it makes no sense to wait a year to be able to account for their interest and principal repayment amount.  Currently, CSOs have to use Finacle to generate the statements on ad-hoc basis. Could there be a way for this to be incorporated in IDEAL for customers to retrieve their statements? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>IBG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>66</id>
+    <date></date>
+    <content><![CDATA[ I would like to highlight an issue related to 'Digi Bank' which I am facing. When I tried to do biometrics authentication, the authentication fails every time. As per the suggestion from customer support, I have visited Aadhaar centre to update the biometrics but the authentication still fails even after multiple attempts.  I have observed the same issue with some of my colleagues in my previous company and we couldn't open a Digi Bank savings account even though we are eager to use DBS Digi Bank app.
+
+I know this is a rare issue. But this will definitely impact the business. For example, if any high-value customer faces this issue and he couldn't open the account, we may lose the customer. When I checked with our customer support, they told me that fingerprint authentication is the only option to open a Digi Bank savings account. But I would suggest having some workaround for those who are facing such issues so that we can accommodate every customer.  Hope we can address this for a better banking experience. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>Digital Bank</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>67</id>
+    <date></date>
+    <content><![CDATA[ I was wondering about the PIP framework and its efficacy.  To begin with, what is its purpose?  One would assume it is to prevent insider trading, to allow DBS to be (and just as, if not more importantly, be viewed) as being above board and to protect against conflicts of interest (perceived or actual).  What are the procedures it requires?  Firstly, one has to declare online, wait for approval, which is sent to you and your superior, after which you may trade if you received approval.  My complaints with the system are two-fold.
+
+- it is a supremely tedious process. The trouble required (steps listed above) goes over and above what is necessary, relative to its aim. It seems to me that restrictive policies such as this are counter-productive; they would usually result in people trading via a proxy, circumventing the policy's intended purpose to begin with.
+
+- investment strategy is an intrinsically personal thing. I do not see why my superior has to be copied and I believe this is an affront to my privacy. Couldn't an unrelated and neutral third party play the role?
+
+The situation is aggravated when you have a buy or sell price that is not at spot - to execute an order, you will have to constantly apply for approval, embarrassingly flooding your superior's mailbox in the process, until the market moves in your favour and your trade is executed. Again, this second point compounds the issues raised previously - a policy as restrictive as this is made worse with social issues, ultimately being counter-productive and doing more damage than benefit. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>Compliance</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>68</id>
+    <date></date>
+    <content><![CDATA[ With regards to ‘Decisive’ in the PRIDE! values, should this be reviewed?  The meaning in the dictionary differs from what is indicated in the PRIDE! values (Thinks, Acts, Owns. Holds self and colleagues accountable for achieving results / Sets High Standards / Meets Commitments). ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>GSMC</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>69</id>
+    <date></date>
+    <content><![CDATA[ The DBS Open has been a great forum for us to hear from you about key initiatives taking place in the bank. A minor point to raise is the call for feedback at the end. There were several questions including open-ended questions but the whole module was shut down when the conference ended so those who did not complete the feedback questionnaire had no way to complete it subsequently. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>GSMC</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>70</id>
+    <date></date>
+    <content><![CDATA[ It has been 1.5 years since DBS Australia obtained its banking licence.  I noted that Australia is not within the list of countries. I suggest including Australia so that staff from Australia can ‘tell Piyush’ as well. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>GSMC</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>71</id>
+    <date></date>
+    <content><![CDATA[ I see that Australia is not in the drop down list above. I cannot download the data I need for management reporting and have to produce the reports manually. The Australian cricket team is terrible! ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>GSMC</span><span>T&amp;O</span>]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>72</id>
+    <date></date>
+    <content><![CDATA[ Can printing costs be reduced further by having more standard reports or thinner decks? Having more non-standard reports and thicker decks will lead to more revision and printing. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>Finance</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>73</id>
+    <date></date>
+    <content><![CDATA[ Due to the Strategic Cost Management Printer Cost Management initiative, the bank no longer allows photocopier purchases. The default print cost ratio is set at 50%-50%, and this can be adjusted accordingly upon the agreement between the two departments. This arrangement tends to lead to some disagreements among the departments.
+
+Can this be done like some other banks which install card readers on photocopiers? This will lead to better tracking of usage to determine the individual department’s printing costs, sharing of photocopiers between all parties without arguments, and better info security. Apart from that, some people forget to take the printouts after printing, leading to wastage. With the card reader, the photocopier will only print when a staff pass is tapped. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>Finance</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>74</id>
+    <date></date>
+    <content><![CDATA[ I was very impressed with the speech by Ravi Menon at the FinTech Festival on 16/11 where he charted out quite a few (~12) game changers anchored around two themes - regulations and infrastructure. What are your own reactions to this speech?
+
+Secondly, do you think it is a good idea to create ‘DBS Bank Journeys’ around each of these 12 topics? The bank can thus dip into the Intellectual Property of employees and get a list of well-structured and holistic action items to exploit the opportunities offered. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CEO</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>75</id>
+    <date></date>
+    <content><![CDATA[ I really enjoy your sharing on various initiatives and I strongly believe the values you espouse are the hallmarks of a winning organisation. What are your thoughts or strategies to ensure that these values are percolated down to senior and middle management such that they also 'walk' the talk? ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CEO</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>76</id>
+    <date></date>
+    <content><![CDATA[ DBS was my first full time employer after graduation.  I worked here for about eight years and left for the forest and I am now back after a 10-year hiatus.  I am very proud to see the massive changes and it is very obvious that the bank has invested a lot of resources on strategies / technology / training etc. to ensure that DBS and our staff can stay relevant and meet the demands of the changing landscape. However, the ‘heart-ware’ of the people, especially those in a position of influence, is lagging behind. The young workforce looks up to the leaders they interact with daily to mirror the behaviours / get inspired etc. and I am not confident if they are receiving the right signals. More resources should be invested to cultivate and internalise a stronger PRIDE!, personal leadership. We need to understand why we need to do certain things. Not just do things for our own interest or just because someone said, it has to make sense. The only resource in Singapore is her people. We need to do our part at home / in school and at work to plant and cultivate the seeds of personal leadership. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>CEO</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
+  </blog>
+  <blog>
+    <id>77</id>
+    <date></date>
+    <content><![CDATA[ The bank needs to strengthen risk management and change management to avoid risks and improve operations. ]]></content>
+    <commentnumber>3</commentnumber>
+    <tags><![CDATA[ <span>RMG</span> ]]></tags>
+    <answer><![CDATA[  ]]></answer>
+    <comment><![CDATA[  ]]></comment>
   </blog>
 </blogs>
 

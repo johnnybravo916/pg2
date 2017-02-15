@@ -32,9 +32,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="header-left"><span class="no-underline">Blog</span></h2>
-        <a href="index.html" title="PG" class="branding-desktop"><img src="./images/branding.png" alt="PG"/></a>
-        <h2 class="header-right"><a href="tell-piyush.html" title="Tell Piyush" class="menu-active">Tell Piyush</a></h2>
+        <h2 class="header-left"><a href="http://mydbs.net/Pages/rated-pg/" title="Blog" target="_blank">Blog</a></h2>
+        <span class="branding-desktop"><img src="./images/branding.png" alt="PG"></span>
+        <h2 class="header-right"><a href="tell-piyush.html" title="Tell Piyush">Tell Piyush</a></h2>
       </div>
     </div>
   </div>
@@ -87,16 +87,16 @@
     <div class="col-md-4 comment-item--block grid-item grid-sizer comment-item--loader kindling {{x.class}}" ng-repeat="blog in commentList.comments | filter: searchBox | limitTo: limitComments" isotope-item>
       <div class="commment-item animate comment-item-Footer" ng-click='$emit("iso-method", {name:"layout",params:null});$emit("iso-option", {itemSelector: ".grid-item"})'>
         <div class="comment-item--details">
-          <div class="comment-item--date">{{blog._date}}</div>
+          <div class="comment-item--date">{{blog.date}}</div>
           <div class="more">
-            <show-more text="blog._content" limit="200"> </show-more>
+            <show-more text="blog.content" limit="200"> </show-more>
           </div>
-          <a href="#{{blog._id}}comment" title="View" class="link-fancybox fancybox">View Response</a>
+          <a href="#{{blog.id}}comment" title="View" class="link-fancybox fancybox">View Response</a>
         </div>
         <div class="comment-item--footer clearfix">
-          <a href="#{{blog._id}}comment" title="Comments" class="comment-item--commentlink fancybox">{{blog._commentnumber}} comments</a>
+          <a href="#{{blog.id}}comment" title="Comments" class="comment-item--commentlink fancybox">{{blog._commentnumber}} comments</a>
           <div class="comment-item--tagwrap">
-            <span class="comment-item--tag">{{blog._tags}}</span>
+            <span class="comment-item--tag" ng-bind-html="blog.tags | trusted">{{blog.tags}}</span>
           </div>
         </div>
       </div>
@@ -114,16 +114,16 @@
 </div>
 
 <div ng-repeat="blog in commentList.comments">
-  <div id="{{blog._id}}comment" class="js-hide modal-comment">
+  <div id="{{blog.id}}comment" class="js-hide modal-comment">
     <div class="commment-item animate comment-item--nomargin">
       <div class="comment-item--details">
-        <div class="comment-item--date">{{blog._date}}</div>
+        <div class="comment-item--date">{{blog.date}}</div>
         <div class="more">
-          <p>{{blog._content}}</p>
+          <p ng-bind-html="blog.content | trusted"></p>
         </div>
       </div>
       <div class="comment-item--footer">
-        <a href="#" title="Comments" class="comment-item--commentlink">{{blog._commentnumber}} comments</a>
+        <a href="#" title="Comments" class="comment-item--commentlink">{{blog.commentnumber}} comments</a>
         <a href="#" title="Comments" class="comment-item--commentlink">Post a reply</a>
         <div class="comment-item--tagwrap">
           <!-- no tags -->
@@ -131,12 +131,12 @@
       </div>
       <div class="comment-modal--comments">
         <div class="comment-modal--piyush">Piyush Gupta</div>
-        <div class="comment-modal--commentMain">{{blog._answer}}</div>
+        <div style="white-space: pre-wrap;" class="comment-modal--commentMain" ng-bind-html="blog.answer | trusted"></div>
         <div class="comment-icon--reply">Post a reply</div>
       </div>
       <div class="comment-modal--otherComments">
         <div class="comment-modal--otherWrap">
-          <div class="comment-modal--commentReply">{{blog._comment}}</div>
+          <div style="white-space: pre-wrap;" class="comment-modal--commentReply" ng-bind-html="blog.comment | trusted"></div>
           <div class="comment-icon--reply">Post a reply</div>
         </div>
       </div>

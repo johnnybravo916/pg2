@@ -22,9 +22,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="header-left"><span class="no-underline">Blog</span></h2>
-        <a href="index.html" title="PG" class="branding-desktop"><img src="./images/branding.png" alt="PG"/></a>
-        <h2 class="header-right"><a href="tell-piyush.html" title="Tell Piyush" class="menu-active">Tell Piyush</a></h2>
+        <h2 class="header-left"><a href="http://mydbs.net/Pages/rated-pg/" title="Blog" target="_blank">Blog</a></h2>
+        <span class="branding-desktop"><img src="./images/branding.png" alt="PG"></span>
+        <h2 class="header-right"><a href="tell-piyush.html" title="Tell Piyush">Tell Piyush</a></h2>
       </div>
     </div>
   </div>
@@ -92,17 +92,12 @@
       <div class="comment-item--details">
         <div class="comment-item--date">{{blog.date}}</div>
         <div class="more">
-          <p  style="white-space: pre-wrap;" ng-bind-html="blog.content | trusted"></p>
+          <p style="white-space: pre-wrap;" ng-bind-html="blog.content | trusted"></p>
         </div>
       </div>
       <div class="comment-modal--comments">
         <div class="comment-modal--piyush">Piyush Gupta</div>
-        <div class="comment-modal--commentMain">{{blog.answer}}</div>
-      </div>
-      <div class="comment-modal--otherComments">
-        <div class="comment-modal--otherWrap">
-          <div class="comment-modal--commentReply">{{blog.comment}}</div>
-        </div>
+        <div style="white-space: pre-wrap;" class="comment-modal--commentMain" ng-bind-html="blog.answer | trusted"></div>
       </div>
     </div>
   </div>
