@@ -59,7 +59,7 @@
       </div>
     </div>
   </div>
-  <div class="text-center searchNothing" ng-show="(commentList.comments |filter:searchBox).length == 0">No Results</div>
+
   <div class="row commment-item--wrap grid" id="isotopeContainer" isotope-container ng-cloak class="ng-cloak">
   
     <!-- repeater start-->
@@ -68,9 +68,9 @@
         <div class="comment-item--details">
           <div class="comment-item--date"></div>
           <div class="more">
-            <show-more text="blog._content" limit="200"> </show-more>
+            <show-more text="blog.content" limit="200"> </show-more>
           </div>
-          <a href="#{{blog._id}}comment" title="View" class="link-fancybox fancybox">View Response</a>
+          <a href="#{{blog.id}}comment" title="View" class="link-fancybox fancybox">View Response</a>
         </div>
       </div>
     </div>
@@ -87,21 +87,21 @@
 </div>
 
 <div ng-repeat="blog in commentList.comments">
-  <div id="{{blog._id}}comment" class="js-hide modal-comment">
+  <div id="{{blog.id}}comment" class="js-hide modal-comment">
     <div class="commment-item animate comment-item--nomargin">
       <div class="comment-item--details">
-        <div class="comment-item--date">{{blog._date}}</div>
+        <div class="comment-item--date">{{blog.date}}</div>
         <div class="more">
-          <p>{{blog._content}}</p>
+          <p  style="white-space: pre-wrap;" ng-bind-html="blog.content | trusted"></p>
         </div>
       </div>
       <div class="comment-modal--comments">
         <div class="comment-modal--piyush">Piyush Gupta</div>
-        <div class="comment-modal--commentMain">{{blog._answer}}</div>
+        <div class="comment-modal--commentMain">{{blog.answer}}</div>
       </div>
       <div class="comment-modal--otherComments">
         <div class="comment-modal--otherWrap">
-          <div class="comment-modal--commentReply">{{blog._comment}}</div>
+          <div class="comment-modal--commentReply">{{blog.comment}}</div>
         </div>
       </div>
     </div>

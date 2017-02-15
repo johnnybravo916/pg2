@@ -1,13 +1,19 @@
 angular.module('comments', ['xml', 'iso.directives'])
 .config(function ($httpProvider) {
-      $httpProvider.interceptors.push('xmlHttpInterceptor')
+      $httpProvider.interceptors.push('xmlHttpInterceptor');
     })
 .controller('BlogsCtrl', BlogsController)
 .service('BlogsService', BlogsService)
 .directive('showMore',showMoreDirective)
 .filter('subString',subStringFilter)
-.constant('ApiBasePath', 'xmlComments.xml');
-
+.constant('ApiBasePath', 'xmlComments.xml')
+.filter('trusted',
+   function($sce) {
+     return function(ss) {
+       return $sce.trustAsHtml(ss)
+     };
+   }
+);
 
 function showMoreDirective() {
   return {
@@ -17,7 +23,7 @@ function showMoreDirective() {
           text: '=',
           limit:'='
       },
-      template: '<div><p ng-show="largeText">{{ text | subString :0 :end }}<span ng-show="isShowMore">...</span> <div ng-click="showMore();reLayout()" ng-show="isShowMore" class="morelink">Read More</div><div class="showless morelink" ng-click="showLess();reLayout()" ng-hide="isShowMore">Read Less </div></p><p ng-hide="largeText">{{ text }}</p></div> ',
+      template: '<div style="white-space: pre-wrap;"><p ng-show="largeText"><span ng-bind-html="text | subString :0 :end|trusted"> {{text | subString :0 :end  }}</span><span ng-show="isShowMore">...</span> <div ng-click="showMore();reLayout()" ng-show="isShowMore" class="morelink">Read More</div><div class="showless morelink" ng-click="showLess();reLayout()" ng-hide="isShowMore">Read Less </div></p><p ng-hide="largeText">{{ text }}</p></div> ',
       link: function(scope, iElement, iAttrs) {
           scope.end = scope.limit;
           if (scope.text.length > scope.limit) {
@@ -73,7 +79,7 @@ function BlogsController($scope, BlogsService){
   .catch(function (error) {
     console.log('Noooooo, an error occurred', error);
   }); 
-  $scope.limitComments = 6;
+  $scope.limitComments = 12;
   $scope.loadMore = function(){
     var increment = $scope.limitComments + 3;
     console.log (commentList.comments.length );
