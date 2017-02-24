@@ -387,13 +387,9 @@ footer .footer-right ul li a:hover{opacity:0.7}
   .post-featured--banner{height:225px}
 }
 @media only screen and (max-width : 768px) {
-	.fancybox-lock .fancybox-overlay{background: none}
-  .fancybox-opened .fancybox-skin{box-shadow: 0 0px 35px rgba(0,0,0,.8)}
 .post-featured--banner{height:175px}
 }
 @media only screen and (max-width : 480px) {
-  .fancybox-lock .fancybox-overlay{background: none}
-  .fancybox-opened .fancybox-skin{box-shadow: 0 0px 35px rgba(0,0,0,.8)}
   .login-header .js-close{top: 4px;}
   .login-header--statement{padding-right:40px}
   .header-main .branding-desktop{margin:10px 20px}
@@ -403,8 +399,6 @@ footer .footer-right ul li a:hover{opacity:0.7}
   .post-featured--banner{height:130px}
 }
 @media only screen and (max-width : 380px) {
-  .fancybox-lock .fancybox-overlay{background: none}
-  .fancybox-opened .fancybox-skin{box-shadow: 0 0px 35px rgba(0,0,0,.8)}
   .post-featured--banner img{top:-20px}
   .post-featured--banner{height:100px}
 }
